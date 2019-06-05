@@ -1,3 +1,3 @@
 【phina.js】2Dシューティングチュートリアル
 
-* [はじめに](/01-introduction.html)
+* [はじめに](phina-tutrial/01-introduction.html)
