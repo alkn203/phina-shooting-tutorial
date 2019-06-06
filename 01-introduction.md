@@ -1,20 +1,16 @@
-[f:id:alkn203:20190531212055j:plain]
-[:contents]
-
 ### はじめに
-今回のエントリーは、**Unityの公式ページにある2Dシューティングのチュートリアル**を参考にして、**phina.js**バージョンを作ってみるという勝手な企画です。
-それぞれのアプローチの違いなども、自分なりに理解したいと思ったのがきっかけです。
-
-[https://unity3d.com/jp/learn/tutorials/projects/2d-shooting-game-jp:embed:cite]
+このコンテンツは、[Unityの公式ページにある2Dシューティングのチュートリアル](https://unity3d.com/jp/learn/tutorials/projects/2d-shooting-game-jp)を参考にして、**phina.js**バージョンを作ってみるという内容です。それぞれのアプローチの違いなども、自分なりに理解したいと思ったのがきっかけです。
 
 ### 内容について
 以下の方であれば、より理解しやすいかと思います。
 
 * **javascript**に慣れ親しんでいある。
 * オブジェクト指向プログラミングがある程度理解できている。
-* **phina.js**の基礎を知っている（**phina.js Tips集**が参考になれば幸いです）
+* [phina.js Tips
+集](https://qiita.com/alkn203/items/bca3222f6b409382fe20)を一読している。
 
-[https://qiita.com/alkn203/items/bca3222f6b409382fe20:embed:cite]
+### 目次
+
 
 ### プログラミングの準備
 一番手っ取り早いのは、**phina.js**の公式オンラインエディタとして位置付けられている
