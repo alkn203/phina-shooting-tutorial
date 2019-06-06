@@ -1,13 +1,10 @@
-[f:id:alkn203:20190604234738g:plain]
-[:contents]
-
 ### はじめに
-前回の[https://keeponcoding.hatenablog.com/entry/2019/06/03/233516:title]では、ゲームで使うアセットの読み込みまで行いました。今回は、プレイヤーをキーボードで操作できるようにします。
+[前回]()は、ゲームで使うアセットの読み込みまで行いました。今回は、プレイヤーをキーボードで操作できるようにします。
 
 ### プレイヤーの移動
 **Unity**では、コードを実行する場合、ゲームオブジェクトにスクリプトをアタッチする方法をとりますが、**phina.js**では、オブジェクト専用のクラスを作成する方法が主流となります。
 
-#### プレイヤークラス
+### プレイヤークラス
 今回は、プレイヤークラスを以下のとおり実装しました。
 
 ```javascript
@@ -36,7 +33,7 @@ phina.define("Player", {
 });
 ```
 
-##### クラス宣言
+### クラス宣言
 
 ```javascript
 phina.define("Player", {
@@ -47,7 +44,7 @@ phina.define("Player", {
 * クラス宣言は、**define**で行います。次の文字列はクラス名です。
 * **superClass**で継承元の親クラスを指定します。自機はスプライト画像を使うので、親クラスに**Sprite**クラスを指定しています。
 
-##### init関数
+### init関数
 一般的にコンストラクと呼ばれるもので、**Unity**における**Start**と同じ役割です。
 
 ```javascript
@@ -66,7 +63,7 @@ phina.define("Player", {
 * **FrameAnimation**を作成し、**this**(Player)にアタッチしています。この辺りは、**Unity**のコンポーネントに近いです。
 * **gotoAndPlay**で、先に定義したアニメーションを再生しています。
 
-##### Update関数
+### Update関数
 毎フレーム呼ばれるもので、**Unity**における**Update**と同じです。
 
 ```javascript
@@ -107,7 +104,5 @@ phina.define("Player", {
 [https://qiita.com/alkn203/items/d176a10d4e38d15e4062:embed:cite]
 
 ### 実行サンプル
-以下の**runstant**の実行画面で、方向キーでプレイヤーを操作できるのが確認できます。
-
-
+方向キーでプレイヤーを操作してみて下さい。
 [http://runstant.com/alkn203/projects/11b5a132:embed:cite]
