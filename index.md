@@ -13,3 +13,4 @@
 1. [プログラミングの準備](01-introduction.html)
 1. [スプライトとスプライトアニメーションの作成](02-sprite.html)
 1. [プレイヤーの移動](03-moveplayer.html)
+1. [プレイヤーから弾を撃つ](04-playershot.hlml)
