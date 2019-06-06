@@ -16,8 +16,8 @@ obj1.addChildTo(obj2);
 プレイヤーの弾を表示するだけなら、以下のようにスプライトとしてシーンに追加すればOKです。
 
 ```javascript
-　// プレイヤーの弾
-    Sprite('bullet', 64, 64).addChildTo(this).setPosition(this.gridX.center(), this.gridY.center());
+// プレイヤーの弾
+Sprite('bullet', 64, 64).addChildTo(this).setPosition(this.gridX.center(), this.gridY.center());
 ```
 
 実行サンプル　[http://runstant.com/alkn203/projects/98cae238:title]
