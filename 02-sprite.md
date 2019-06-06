@@ -8,11 +8,13 @@
 プレイヤーと敵   
 ![ships](work/assets/ships.png) 
 
+
 プレイヤーと敵の弾   
-![ships](work/assets/bullet.png)
+![shot](work/assets/shot.png)
+
 
 爆発   
-![ships](work/assets/explosion.png)
+![explosion](work/assets/explosion.png)
 
 * これらの画像は、一般的に**スプライトシート**と呼ばれており同じサイズの画像を複数枚タイル状に並べたものです。
 * 一枚当たりのサイズを指定して切り出すことで、好きなコマ画像を表示したり、**フレームアニメーション**と言われるコマ送りの動画を表現することができます。
