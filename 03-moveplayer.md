@@ -101,8 +101,8 @@ player.setPosition(this.gridX.center(), this.gridY.center(3));
 
 プレイヤーの位置指定には、**Grid**を使っています。**Grid**については、以下を参考にして下さい。
 
-[https://qiita.com/alkn203/items/d176a10d4e38d15e4062:embed:cite]
+[https://qiita.com/alkn203/items/d176a10d4e38d15e4062]
 
 ### 実行サンプル
 方向キーでプレイヤーを操作してみて下さい。
-[http://runstant.com/alkn203/projects/11b5a132:embed:cite]
+[http://runstant.com/alkn203/projects/11b5a132]
