@@ -11,31 +11,4 @@
 
 ### 目次
 1. [プログラミングの準備](introduction.html)
-
-
-
-  init: function() {
-    // 親クラス初期化
-    this.superIni
-    this.backgroundColor = 'black';
-    // 以下にコードを書いていく
-  },
-  // 毎フレーム更新処理
-  update: function() {
-    // 以下にコードを書い
-});
-/*
- * メイン処理
- */
-phina.main(function() {
-  // アプリケーションを生成
-  var app = GameApp({
-    // MainScene から開始
-    startLabel: 'main',
-  });
-  // fps表示
-  //app.enableStats();
-  // 実行
-  app.run();
-});
-```
+1. [スプライトとスプライトアニメーションの作成]()
