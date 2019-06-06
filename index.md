@@ -10,5 +10,5 @@
 集](https://qiita.com/alkn203/items/bca3222f6b409382fe20)を一読している。
 
 ### 目次
-1. [プログラミングの準備](introduction.html)
+1. [プログラミングの準備](01-introduction.html)
 1. [スプライトとスプライトアニメーションの作成]()
