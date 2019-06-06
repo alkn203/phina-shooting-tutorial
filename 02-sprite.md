@@ -147,7 +147,8 @@ player.setPosition(this.gridX.center(), this.gridY.center(3));
 FrameAnimation('spaceship').attachTo(player).gotoAndPlay('player');
 ```
 
-### サンプル
+### 実行サンプル
+<div class='runstant'><iframe src='https://runstant.com/alkn203/projects/2078b429/full' width='100%' height='640px' style='border:0px;box-shadow:0px 0px 2px 0px #aaa'></iframe></div>
 
-[http://runstant.com/alkn203/projects/2078b429]
+[runstsntで実行](https://runstant.com/alkn203/projects/2078b429)
 
