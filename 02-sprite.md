@@ -5,13 +5,13 @@
 **Unity**では内臓のスプライトエディタで作成しますが、** phina.js **ではアセットとして別に用意した画像ファイルを読み込みます。
 
 ### 用意した画像
-プレイヤーと敵
-![ships](work/assets/ships.png)
+プレイヤーと敵   
+![ships](work/assets/ships.png) 
 
-自機と敵の弾
+プレイヤーと敵の弾   
 ![ships](work/assets/bullet.png)
 
-爆発
+爆発   
 ![ships](work/assets/explosion.png)
 
 * これらの画像は、一般的に**スプライトシート**と呼ばれており同じサイズの画像を複数枚タイル状に並べたものです。
