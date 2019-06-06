@@ -20,7 +20,9 @@ obj1.addChildTo(obj2);
 Sprite('bullet', 64, 64).addChildTo(this).setPosition(this.gridX.center(), this.gridY.center());
 ```
 
-実行サンプル　[http://runstant.com/alkn203/projects/98cae238]
+### 実行サンプル
+<div class='runstant'><iframe src='https://runstant.com/alkn203/projects/98cae238/full' width='100%' height='640px' style='border:0px;box-shadow:0px 0px 2px 0px #aaa'></iframe></div>
+[runstantで実行](http://runstant.com/alkn203/projects/98cae238)
 
 ### プレイヤーの弾を動かす
 ゲームを実行したら勝手に上に飛んで行く弾を作成します。
