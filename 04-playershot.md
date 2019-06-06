@@ -92,8 +92,9 @@ phina.define("PlayerBullet", {
 
 ### ここまでの実行サンプル
 弾が一回だけ上方向に発射されます。
+<div class='runstant'><iframe src='https://runstant.com/alkn203/projects/53897c29/full' width='100%' height='640px' style='border:0px;box-shadow:0px 0px 2px 0px #aaa'></iframe></div>
 
-[http://runstant.com/alkn203/projects/53897c29]
+[runstantで実行](http://runstant.com/alkn203/projects/53897c29)
 
 ### 弾を連続して発射させる
 **Unity**のチュートリアルでは、コルーチンを使って実現していますが、**phina.js**では**Tweener**という機能がありますので、これを活用します。
