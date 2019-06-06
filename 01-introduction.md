@@ -10,68 +10,19 @@
 集](https://qiita.com/alkn203/items/bca3222f6b409382fe20)を一読している。
 
 ### 目次
+1. [プログラミングの準備](introduction.html)
 
 
-### プログラミングの準備
-一番手っ取り早いのは、**phina.js**の公式オンラインエディタとして位置付けられている
-**Runstant**を使う方法です。実行結果も即座に確認できるので便利です。
 
-[http://runstant.com/:embed:cite]
-[f:id:alkn203:20190531160550j:plain]
-
-#### phina.jsを利用できるようにする
-* **runstant**の**html**タブのソースで、以下のように読み込みます。
-* 自分の好きなエディタを使いたい方は、参照先の**phina.js**をダウンロードしてローカルで読み込みます。
-
-```html
-<!doctype html>
- 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    
-    <title>${title}</title>
-    <meta name="description" content="${description}" />
-    
-    <style>${style}</style>
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/gh/phi-jp/phina.js@v0.2.3/build/phina.js"></script>
-    <script>${script}</script>
-  </body>
-</html>
-```
-
-#### コーディングする
-* **javascript**のコードは、**runstant**の**script**タブに書いていきます。
-* 今回は、私がいつも使っている**ひな形**から作成していきます。
-
-[https://qiita.com/alkn203/items/09274a38a0f31ee0c1d5:embed:cite]
-
-```javascript
-
-// グローバルに展開
-phina.globalize();
-/*
- * メインシーン
- */
-phina.define("MainScene", {
-  // 継承
-  superClass: 'DisplayScene',
-  // 初期化
   init: function() {
     // 親クラス初期化
-    this.superInit();
-    // 背景色
+    this.superIni
     this.backgroundColor = 'black';
     // 以下にコードを書いていく
   },
   // 毎フレーム更新処理
   update: function() {
-    // 以下にコードを書いていく  
-  },
+    // 以下にコードを書い
 });
 /*
  * メイン処理
