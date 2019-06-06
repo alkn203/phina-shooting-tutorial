@@ -94,9 +94,9 @@ phina.define("Player", {
 プレイヤークラスを実装しましたので、プレイヤーをシーンに追加します。
 
 ```javascript
-.    // プレイヤー
-    var player = Player().addChildTo(this);
-    player.setPosition(this.gridX.center(), this.gridY.center(3));
+// プレイヤー
+var player = Player().addChildTo(this);
+player.setPosition(this.gridX.center(), this.gridY.center(3));
 ```
 
 プレイヤーの位置指定には、**Grid**を使っています。**Grid**については、以下を参考にして下さい。
