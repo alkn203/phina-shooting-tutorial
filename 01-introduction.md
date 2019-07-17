@@ -1,12 +1,10 @@
 ## プログラミングの準備
-**phina.js**の公式オンラインエディタの位置付けである[Runstant](https://runstant.com/)
+今回のん**phina.js**の公式オンラインエディタの位置付けである[Runstant](https://runstant.com/)を使用します。
 
 ![IMG_20190531_160033.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/ec4f941b-b20a-63d3-0144-10803a9fa61a.jpeg)
 
 ## ひな形
-私が普段使っている以下のひな形から作成していきます。
-
-[https://qiita.com/alkn203/items/09274a38a0f31ee0c1d5:embed:cite]
+私が普段使っている以下の[ひな形](https://qiita.com/alkn203/items/09274a38a0f31ee0c1d5)から作成します。
 
 ```javascript
 // グローバルに展開
