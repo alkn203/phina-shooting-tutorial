@@ -1,5 +1,5 @@
 ## プログラミングの準備
-今回のん**phina.js**の公式オンラインエディタの位置付けである[Runstant](https://runstant.com/)を使用します。
+今回のチュートリアルでは、**phina.js**の公式オンラインエディタの位置付けである[Runstant](https://runstant.com/)を使用します。
 
 ![runstant.jpeg](/images/runstant.jpeg)
 
