@@ -1,5 +1,5 @@
 ## プログラミングの準備
-**phina.js**の公式オンラインエディタの位置付けである[Runstant](https://runstant.com/
+**phina.js**の公式オンラインエディタの位置付けである[Runstant](https://runstant.com/)
 
 ![IMG_20190531_160033.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/ec4f941b-b20a-63d3-0144-10803a9fa61a.jpeg)
 
