@@ -1,4 +1,3 @@
-[f:id:alkn203:20190531212055j:plain]
 ## はじめに
 このエントリーは、[Unityの公式ページにある2Dシューティングのチュートリアル](https://unity3d.com/jp/learn/tutorials/projects/2d-shooting-game-jp)を参考にして、**phina.js**バージョンを作ってみるという内容です。それぞれのアプローチの違いなども、自分なりに理解したいと思ったのがきっかけです。
 
