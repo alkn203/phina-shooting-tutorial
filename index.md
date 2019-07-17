@@ -9,8 +9,7 @@
 - [phina.js Tips集](https://qiita.com/alkn203/items/bca3222f6b409382fe20)を一読している。
 
 ## チュートリアル目次
-1. [プログラミングの準備](https://keeponcoding.hatenablog.com/entry/2019/06/08/024450)
-
+1. [プログラミングの準備](01-introduction.md)
 1. [スプライトとスプライトアニメーションの作成](https://keeponcoding.hatenablog.com/entry/2019/06/08/080929)
 1. [プレイヤーの移動](https://keeponcoding.hatenablog.com/entry/2019/06/08/164735)
 1. [プレイヤーから弾を撃つ](https://keeponcoding.hatenablog.com/entry/2019/06/09/172308)
