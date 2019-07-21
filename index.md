@@ -10,7 +10,7 @@
 
 ## チュートリアル目次
 1. [プログラミングの準備](01-introduction.md)
-1. [スプライトとスプライトアニメーションの作成](https://keeponcoding.hatenablog.com/entry/2019/06/08/080929)
+1. [スプライトとスプライトアニメーションの作成](01-sprite.md)
 1. [プレイヤーの移動](https://keeponcoding.hatenablog.com/entry/2019/06/08/164735)
 1. [プレイヤーから弾を撃つ](https://keeponcoding.hatenablog.com/entry/2019/06/09/172308)
 1. [敵の作成](https://keeponcoding.hatenablog.com/entry/2019/06/13/084442)
