@@ -1,17 +1,17 @@
 ## はじめに
-[前回](00-introduction.md)は、**phina.js**におけるコーディングの準備までを書きました。今回から具体的にチュートリアルを進めていきます。
+[前回](00-introduction.html)は、**phina.js**におけるコーディングの準備までを書きました。今回から具体的にチュートリアルを進めていきます。
 
 ## テクスチャからスプライトを作成する
 **Unity**では内臓のスプライトエディタで作成しますが、**phina.js**ではアセットとして別に用意した画像ファイルを読み込みます。
 
 ## 用意した画像
-プレイヤーと敵
+プレイヤーと敵    
 ![spaceship.png](images/spaceship.png)
 
-プレイヤーと敵の弾   
+プレイヤーと敵の弾     
 ![shot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/1e20beb6-db4f-22c4-e6ce-8ce0cf462362.png)
 
-爆発   
+爆発    
 ![explosion.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/16fbedc4-52f6-1c4a-7b3f-45cfb0f66689.png)
 
 - これらの画像は、一般的に**スプライトシート**と呼ばれており同じサイズの画像を複数枚タイル状に並べたものです。
