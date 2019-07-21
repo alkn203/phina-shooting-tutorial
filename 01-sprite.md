@@ -6,7 +6,7 @@
 
 ## 用意した画像
 プレイヤーと敵
-![ships.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/4395861f-04b2-f816-7ff1-e5d045fec695.png)
+![spaceship.png](images/spaceship.png)
 
 プレイヤーと敵の弾   
 ![shot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/1e20beb6-db4f-22c4-e6ce-8ce0cf462362.png)
