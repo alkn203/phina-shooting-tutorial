@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 【phina.js】2Dシューティングチュートリアル =プログラミングの準備=
 ---
 
