@@ -64,7 +64,7 @@
 ### 爆発アニメーションの定義ファイル
 以下のようなアニメーションを作成します。
 
-![explosionanim.gif](images/explosionan8m.gif)
+![explosionanim.gif](images/explosionanim.gif)
 
 ```javascript
 {
