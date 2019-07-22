@@ -146,4 +146,4 @@ FrameAnimation('spaceship').attachTo(player).gotoAndPlay('player');
 ```
 
 ### 実行サンプル
-[https://runstant.com/alkn203/projects/2078b429:embed:cite]
+[ここまでのサンプル(runstant)](https://runstant.com/alkn203/projects/2078b429)
