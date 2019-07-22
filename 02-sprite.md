@@ -1,7 +1,9 @@
 ---
 layout: post
-title: 【phina.js】2Dシューティングチュートリアル =スプライトとフレームアニメーション=
+title: 【phina.js】2Dシューティングチュートリアル =第2回 スプライトとフレームアニメーション=
 ---
+
+![02-sprite.jpg](images/02-sprite.jpg)
 
 ## はじめに
 [前回](00-introduction.html)は、**phina.js**におけるコーディングの準備までを書きました。今回から具体的にチュートリアルを進めていきます。
