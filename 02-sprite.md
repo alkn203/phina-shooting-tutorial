@@ -9,10 +9,10 @@
 ![spaceship.png](images/spaceship.png)
 
 プレイヤーと敵の弾     
-![shot.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/1e20beb6-db4f-22c4-e6ce-8ce0cf462362.png)
+![bullet.png](images/bullet.png)
 
 爆発    
-![explosion.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/67114/16fbedc4-52f6-1c4a-7b3f-45cfb0f66689.png)
+![explosion.png](images/explosion.png)
 
 - これらの画像は、一般的に**スプライトシート**と呼ばれており同じサイズの画像を複数枚タイル状に並べたものです。
 - 一枚当たりのサイズを指定して切り出すことで、好きなコマ画像を表示したり、**フレームアニメーション**と言われるコマ送りの動画を表現することができます。
