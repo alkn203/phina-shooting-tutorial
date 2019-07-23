@@ -3,7 +3,7 @@ layout: post
 title: 【phina.js】2Dシューティングチュートリアル =第5回 敵を作成する=
 ---
 
-![05-enemy.gif](images/05-eneny.gif)
+![05-enemy.gif](images/05-enemy.gif)
 
 ### はじめに
 [前回](04-playershot.md)は、プレイヤーから弾が発射できるようにしました。今回は、敵を作成します。
