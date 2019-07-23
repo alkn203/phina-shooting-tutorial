@@ -194,4 +194,5 @@ phina.define("MainScene", {
 
 ### 実行サンプル
 プレイヤーが弾が一定間隔で発射されます。
+
 [プレイヤーの弾を一定間隔で発射(runatant)](https://runstant.com/alkn203/projects/cc372378)
