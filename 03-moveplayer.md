@@ -104,10 +104,9 @@ var player = Player().addChildTo(this);
 player.setPosition(this.gridX.center(), this.gridY.center(3));
 ```
 
-プレイヤーの位置指定には、**Grid**を使っています。**Grid**については、以下を参考にして下さい。
-[【phina.js】Gridクラスを使いこなそう](https://qiita.com/alkn203/items/d176a10d4e38d15e4062)
+プレイヤーの位置指定には、**Grid**を使っています。**Grid**については、[【phina.js】Gridクラスを使いこなそう](https://qiita.com/alkn203/items/d176a10d4e38d15e4062)を参考にして下さい。
 
 ### 実行サンプル
 左側の実行画面で方向キーでプレイヤーが操作できます。
 
-[https://runstant.com/alkn203/projects/11b5a132:embed:cite]
+[実行サンプル(runstant)](https://runstant.com/alkn203/projects/11b5a132)
