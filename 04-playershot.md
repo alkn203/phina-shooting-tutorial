@@ -101,7 +101,7 @@ phina.define("PlayerBullet", {
 ### ここまでの実行サンプル
 弾が一回だけ上方向に発射されます。
 
-[https://runstant.com/alkn203/projects/53897c29:embed:cite]
+[プレイヤーの弾の発射(runstant)](https://runstant.com/alkn203/projects/53897c29)
 
 ### 弾を連続して発射させる
 **Unity**のチュートリアルでは、コルーチンを使って実現していますが、**phina.js**では**Tweener**という機能がありますので、これを活用します。
@@ -156,9 +156,9 @@ phina.define("Player", {
                 .setLoop(true); 
 ```
 
-* **tweener**で処理をチェインメソッドの形でつなげると、順番に実行することができます。
-* **call**では任意の処理を記述できるので、**shot**という関数を呼び出しています。
-* **wait**で指定時間(ミリ秒)待って、**setLoop**で再度**call**を呼び出すことを繰り返すことで、一定間隔で弾を発射する処理になります。
+- **tweener**で処理をチェインメソッドの形でつなげると、順番に実行することができます。
+- **call**では任意の処理を記述できるので、**shot**という関数を呼び出しています。
+- **wait**で指定時間(ミリ秒)待って、**setLoop**で再度**call**を呼び出すことを繰り返すことで、一定間隔で弾を発射する処理になります。
 
 ### 弾の生成
 弾の生成は、**shot**という関数の中で行うようにしました。
@@ -194,4 +194,4 @@ phina.define("MainScene", {
 
 ### 実行サンプル
 プレイヤーが弾が一定間隔で発射されます。
-[https://runstant.com/alkn203/projects/cc372378:embed:cite]
+[プレイヤーの弾を一定間隔で発射(runatant)](https://runstant.com/alkn203/projects/cc372378)
