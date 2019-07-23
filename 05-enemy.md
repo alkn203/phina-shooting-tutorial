@@ -68,7 +68,7 @@ phina.define("Player", {
 
 ### ここまでの実行サンプル
 
-[実行サンプル(runstant)](http://runstant.com/alkn203/projects/98cae238:embed:cite]
+[実行サンプル(runstant)](http://runstant.com/alkn203/projects/98cae238)
 
 ### 敵を追加する
 敵クラスは、**SpaceShip**クラスを継承して以下のように作成します。
@@ -163,8 +163,8 @@ phina.define("EnemyBullet", {
       var bullet = Sprite('bullet', 64, 64).addChildTo(self).setFrameIndex(1);
 ```
 
-* 弾は20度ずつ角度をずらして、3つ作成します。
-* 敵の弾の画像は、スプライトの２番めですのでフレームインデックスを指定しています。
+- 弾は20度ずつ角度をずらして、3つ作成します。
+- 敵の弾の画像は、スプライトの２番めですのでフレームインデックスを指定しています。
 
 ### 弾の方向
 ```javascript
@@ -176,14 +176,12 @@ phina.define("EnemyBullet", {
       bullet.physical.velocity = vec;
 ```
 
-*  **rotation**は自身の向いている角度で、**degree**に20度ずつずらした角度が入ってきます。最後に90を足しているのは、**html5 canvas**の仕様で、0度が時計の3時方向となっているので、その分を補正する必要があるからです。
-* **fromDegree**は、引数で与えられた角度と大きさから方向ベクトルを返す関数です。
-* 最後に方向ベクトルを自身のベクトルに代入して速度を設定しています。
+- **rotation**は自身の向いている角度で、**degree**に20度ずつずらした角度が入ってきます。最後に90を足しているのは、**html5 canvas**の仕様で、0度が時計の3時方向となっているので、その分を補正する必要があるからです。
+- **fromDegree**は、引数で与えられた角度と大きさから方向ベクトルを返す関数です。
+- 最後に方向ベクトルを自身のベクトルに代入して速度を設定しています。
 
 ### ここまでの実行サンプル
-敵が下に移動して、一定間隔で３方向に弾を発射します。
-
-[https://runstant.com/alkn203/projects/c91f1564/:embed:cite]
+[3方向に弾を発射する敵(runstant)](https://runstant.com/alkn203/projects/c91f1564)
 
 ### 弾を撃たない敵を作る
 敵のバリエーションを増やすために、弾を撃たない敵を作ります。
