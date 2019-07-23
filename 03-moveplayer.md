@@ -3,7 +3,8 @@ layout: post
 title: 【phina.js】2Dシューティングチュートリアル =第3回 プレイヤーの移動=
 ---
 
-[f:id:alkn203:20190604234738g:plain]
+![03-moveplayer.gif](images/03-moveplayer.gif)
+
 ### はじめに
 [前回](02-sprite.md)は、ゲームで使うアセットの読み込みまで行いました。今回は、プレイヤーをキーボードで操作できるようにします。
 
