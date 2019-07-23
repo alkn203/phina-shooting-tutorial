@@ -3,7 +3,7 @@ lsyout: post
 title: 【phina.js】2Dシューティングチュートリアル =第4回 プレイヤーから弾を撃つ=
 ---
 
-[f:id:alkn203:20190627234019g:plain]
+![04-playershot.gif](images/04-playershot.gif)
 
 ### はじめに
 [前回](03-moveplayer.md)は、プレイヤーをキーボードで移動させるところまで出来ました。 今回は、プレイヤーが自動で弾を連射するようにします。
