@@ -184,8 +184,8 @@ phina.define("EnemyBullet", {
 [3方向に弾を発射する敵(runstant)](https://runstant.com/alkn203/projects/c91f1564)
 
 ### 弾を撃たない敵を作る
-敵のバリエーションを増やすために、弾を撃たない敵を作ります。
-敵クラスのコンストラクにパラメータを渡し判断する形にします。
+- 敵のバリエーションを増やすために、弾を撃たない敵を作ります。
+- 敵クラスのコンストラクにパラメータを渡し判断する形にします。
 
 ```javascript
 /*
@@ -205,8 +205,8 @@ phina.define("Enemy", {
     if (!canShot) return;
 ```
 
-* **canShot**というフラグが**false**であれば、関数を抜けてその後の処理が行われないようにしています。
-* 敵はデフォルトでは弾を撃ち、フラグが明示的に指定された場合ば弾を撃たないようにします。
+- **canShot**というフラグが**false**であれば、関数を抜けてその後の処理が行われないようにしています。
+- 敵はデフォルトでは弾を撃ち、フラグが明示的に指定された場合ば弾を撃たないようにします。
 
 ```javascript
     // 敵
@@ -218,4 +218,4 @@ phina.define("Enemy", {
 ```
 
 ### 実行サンプル
-[https://runstant.com/alkn203/projects/68f172b3:embed:cite]
+[弾を撃たない敵(runstant)](https://runstant.com/alkn203/projects/68f172b3)
