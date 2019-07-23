@@ -28,9 +28,7 @@ Sprite('bullet', 64, 64).addChildTo(this).setPosition(this.gridX.center(), this.
 ```
 
 ### ここまでの実行サンプル
-プレイヤーの弾が表示されるだけです。
-
-[プレイヤーの弾(runstant)](http://runstant.com/alkn203/projects/98cae238)
+[プレイヤーの弾表示(runstant)](http://runstant.com/alkn203/projects/98cae238)
 
 ### プレイヤーの弾を動かす
 ゲームを実行したら勝手に上に飛んで行く弾を作成します。
@@ -99,9 +97,7 @@ phina.define("PlayerBullet", {
 ```
 
 ### ここまでの実行サンプル
-弾が一回だけ上方向に発射されます。
-
-[プレイヤーの弾の発射(runstant)](https://runstant.com/alkn203/projects/53897c29)
+[プレイヤーの弾発射(runstant)](https://runstant.com/alkn203/projects/53897c29)
 
 ### 弾を連続して発射させる
 **Unity**のチュートリアルでは、コルーチンを使って実現していますが、**phina.js**では**Tweener**という機能がありますので、これを活用します。
@@ -193,6 +189,4 @@ phina.define("MainScene", {
 ```
 
 ### 実行サンプル
-プレイヤーが弾が一定間隔で発射されます。
-
 [プレイヤーの弾を一定間隔で発射(runatant)](https://runstant.com/alkn203/projects/cc372378)
