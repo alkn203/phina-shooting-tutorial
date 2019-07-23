@@ -13,5 +13,5 @@
 1. [スプライトとスプライトアニメーションの作成](02-sprite.md)
 1. [プレイヤーの移動](03-moveplayer.md)
 1. [プレイヤーから弾を撃つ](04-playershot.md)
-1. [敵の作成](https://keeponcoding.hatenablog.com/entry/2019/06/13/084442)
+1. [敵の作成](05-enemy.md)
 1. [当たり判定](https://keeponcoding.hatenablog.com/entry/2019/06/20/172305)
