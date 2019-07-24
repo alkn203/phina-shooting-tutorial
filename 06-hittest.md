@@ -210,7 +210,7 @@ phina.define("Explosion", {
 ```
 
 ###  ここまでのサンプル
-[https://runstant.com/alkn203/projects/8b70e935:embed:cite]
+[実行サンプル(runstant)](https://runstant.com/alkn203/projects/8b70e935)
 
 #### 爆発アニメーション終了後にオブジェクトを削除する
 上のサンプルでは、爆発アニメーション後にそのまま最後のコマが残ってしまっています。
