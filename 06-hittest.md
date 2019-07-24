@@ -65,8 +65,8 @@ phina.define("Player", {
     }).addChildTo(this);
 ```
 
-プレイヤーの当たり判定
-< image
+プレイヤーの当たり判定    
+![playercollider.jpg](images/playercollider.jpg)
 
 #### 敵
 敵クラスでコライダーを以下のように追加します。
@@ -90,7 +90,9 @@ phina.define("Enemy", {
       height: 40,
     }).addChildTo(this);
 ```
-<figure class="figure-image figure-image-fotolife" title="敵の当たり判定">[f:id:alkn203:20190619131433j:plain]<figcaption>敵の当たり判定</figcaption></figure>
+
+敵の当たり判定    
+![enemycollider.jpg](images/enemycollider.jpg)
 
 #### プレイヤーの弾
 プレイヤーの弾クラスでコライダーを以下のように追加します。
@@ -114,7 +116,9 @@ phina.define("PlayerBullet", {
       height: 30,
     }).addChildTo(this);
 ```
-<figure class="figure-image figure-image-fotolife" title="プレイヤーの弾の当たり判定">[f:id:alkn203:20190619131523j:plain]<figcaption>プレイヤーの弾の当たり判定</figcaption></figure>
+
+プレイヤーの弾の当たり判定    
+![shotcollider.jpg](images/shotcollider.jpg)
 
 #### 敵の弾
 敵の弾クラスでコライダーを以下のように追加します。
@@ -139,7 +143,9 @@ phina.define("EnemyBullet", {
       height: 10,
     }).addChildTo(this);
 ```
-<figure class="figure-image figure-image-fotolife" title="敵の弾の当たり判定">[f:id:alkn203:20190619132940j:plain]<figcaption>敵の弾の当たり判定</figcaption></figure>
+
+敵の弾の当たり判定    
+![bulletcollider.jpg](images/bulletcollider.jpg)
 
 ### 当たり判定
 各種当たり判定は、シーンの**Update**関数内で行います。**Unity**では、**OnCollisionEnter**のようにイベント駆動型の当たり判定処理になっていますが、**phina.js**は現時点でこのような仕様にはなっていません。
