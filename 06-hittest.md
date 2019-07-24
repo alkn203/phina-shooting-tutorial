@@ -303,7 +303,7 @@ var SCREEN_RECT = Rect(0, 0, 640, 960); // 画面の矩形
 ```
 
 ### ここまでのサンプル
-[https://runstant.com/alkn203/projects/3387cbcd:embed:cite]
+[実行サンプル](https://runstant.com/alkn203/projects/3387cbcd)
 
 ### コライダーを非表示にする
 当たり判定は確認できたので、最後にコライダーを非表示にします。**phina.js**のオブジェクトは、**hide**メソッドで非表示にすることができますので、**Collider**クラスのコンストラクで以下のように追加します
@@ -329,6 +329,6 @@ phina.define("Collider", {
   },
 ```
 
-### 実行サンプル
+### サンプル
 
-[https://runstant.com/alkn203/projects/14f69fd8:embed:cite]
+[実行サンプル](https://runstant.com/alkn203/projects/14f69fd8)
