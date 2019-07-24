@@ -14,4 +14,4 @@
 1. [プレイヤーの移動](03-moveplayer.md)
 1. [プレイヤーから弾を撃つ](04-playershot.md)
 1. [敵の作成](05-enemy.md)
-1. [当たり判定](https://keeponcoding.hatenablog.com/entry/2019/06/20/172305)
+1. [当たり判定](06-hittest.md)
