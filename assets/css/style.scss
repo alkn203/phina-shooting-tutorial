@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
-h1 {
-  font-size:12px;
+header {
+  float:left;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+  padding-bottom:50px;
+}
+
+
+footer {
+  float:left;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
