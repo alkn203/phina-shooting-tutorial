@@ -4,7 +4,6 @@
 @import "{{ site.theme }}";
 
 header {
-  float:left;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -14,7 +13,6 @@ section {
 
 
 footer {
-  float:left;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
